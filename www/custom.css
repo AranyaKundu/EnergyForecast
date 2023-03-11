@@ -1,0 +1,81 @@
+/*Page background*/
+.content-wrapper {
+    background-color: lavender;
+}
+/* logo */
+.main-header .logo {
+    background-color: #ff456a;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.btn,
+.button-1,
+.button-2{
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #fff;
+  color: #000;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  white-space: nowrap;
+}
+
+.btn:hover,
+.button-1:hover,
+.button-2 :hover {
+  background-color: black;
+  color:#fff
+}
+
+.btn:active, 
+.button-1:active,
+.button-2:active{
+  outline: 0;
+}
+
+.btn{
+top: 80%;
+left: 80%;
+}
+
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+  position: relative;
+  width: 100%;
+}
+
+/* Make the image responsive */
+.container img {
+  max-width: 100%;
+  width: 100%;
+  height: 100vh;
+}
+
+.card{
+  text-align: left; 
+  background-color: #fffff0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+  border-radius: 12%;
+}
+
+p .title{
+  text-align: left; 
+  font-size: 16px;
+  margin-left: 2em;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
