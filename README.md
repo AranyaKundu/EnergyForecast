@@ -1,5 +1,6 @@
 # EnergyForecast
 This is `Time Series Analysis` project with a visualization dashboard using R Shiny. The focus is to predict when will the Renewable Energy generation in the United States grow up to a certain percentage of the total energy production. However the dashboard can be used to draw multiple other conclusions and insights. <br>
+`R Shiny` is an R-based framework and is highly useful for building visualization dashboards and also supports Machine Learning and Time Series models. The biggest advantage is unlike many otherdata visualization tools and softwares, R Shiny comes absolutely free of cost. <br>
 The data I used for this project is directly gathered as a csv file from US Energy Information Administration. <br>
 I made the basic probabilistic assumptions of `stationarity`, that is, *_the future will probabilistically remain same as the past or the present,_* necessary to fit any time series model. <br> 
 I have tried to explore some basic and some major time series models. These models range from `Simple Trend` and `Seasonality` up to `Holt-winter` and `ARIMA`. <br>
